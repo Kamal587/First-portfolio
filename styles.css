@@ -1015,7 +1015,7 @@ header {
                 z-index: 2;
             }
                 .margin_container_question{
-                    display: flex;
+                    
                     flex-direction: column;
                     
                 }
@@ -1068,7 +1068,8 @@ header {
                         background: #181818;
                         border: none;
                         border-bottom: 1px solid rgba(255, 255, 255, 0.15);
-                        min-width: 230px;
+                        width: 250px;
+                        
                         
                     }
 
@@ -1187,7 +1188,7 @@ header {
 
 @media (max-width: 1440px) {
     .container_title {
-        padding: calc(40px + (134 - 40) * ((100vw - 375px) / (1440 - 375)));
+        padding: calc(30px + (134 - 30) * ((100vw - 375px) / (1440 - 375)));
         
     }
     .subsection1 {
@@ -1195,7 +1196,7 @@ header {
         line-height: calc(30px + (53 - 30) * ((100vw - 375px) / (1440 - 375)));
     }
     .subsection2_text {
-        font-size: calc(15px + (20 - 15) * ((100vw - 375px) / (1440 - 375)));
+        font-size: calc(13px + (20 - 13) * ((100vw - 375px) / (1440 - 375)));
         padding-right: calc(25px + (173 - 25) * ((100vw - 375px) / (1440 - 375)));
     }
     .container_str2 {
@@ -1427,9 +1428,9 @@ header {
         border-radius: 5px;
         box-shadow: 0px 15px 15px rgba(227, 184, 115, 0.15);
     }
-    .container_title {
+    /* .container_title {
         padding: 194px 0px 208px 60px;
-    }
+    } */
     .container_str2 {
         padding: 50px 30px 0px 30px;
     }
